@@ -1,0 +1,95 @@
+<style>
+*{
+    font-family: :fantasy;}
+    body{ background-color: black;
+}
+[target="blank_"]{
+    color :green
+}
+h1 {
+    color: cyan;
+}
+h3 {
+    color: royalblue;
+}
+th {
+    color: orange;
+}
+p {
+    color: white;
+}
+li {
+    color: darkcyan;
+}
+td {
+    color: snow;
+}
+label {
+    color: aqua;
+}
+legend {
+    color: blue;
+}
+figcaption {
+    color: white
+}
+.pinta {
+    font-family: 'Brush Script MT', cursive;
+}
+.cor {
+    color: midnightblue
+}
+.cor1 {
+    color: magenta;
+}
+.cor2 {
+    color: hotpink;
+}
+#unico {
+    font-family: 'Courier New', monospace;
+    color: blueviolet;
+}
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: yellow;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+  p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+  }
+  div p {
+    background-color: greenyellow;
+    color: blue;
+  }
+  div > p {
+    background-color: green;
+    color: blue;
+  }
+  div ~ p {
+    background-color: seagreen;
+    color: blue;
+  }
+  h1::before {
+    content: &#128521;
+  }
+  h1::after {
+    content: &#128521;
+  }
+  fieldset {
+    background-color:indigo;
+  }
+    </style>
